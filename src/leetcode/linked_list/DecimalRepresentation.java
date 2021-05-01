@@ -1,27 +1,13 @@
 package leetcode.linked_list;
 
+import leetcode.linked_list.LinkedListProvider.ListNode;
+
 import java.util.ArrayList;
 
-public class DecimalRepresentation {
+class DecimalRepresentation {
 
     ListNode head;
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 
     public void push(int new_data) {
         ListNode new_node = new ListNode(new_data);

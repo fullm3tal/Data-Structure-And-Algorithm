@@ -1,4 +1,4 @@
-package test_cases;
+package leetcode.linked_list;
 
 public class LinkedListProvider {
     ListNode head;

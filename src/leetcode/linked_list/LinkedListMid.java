@@ -1,6 +1,6 @@
-package test_cases;
+package leetcode.linked_list;
 
-import test_cases.LinkedListProvider.ListNode;
+import leetcode.linked_list.LinkedListProvider.ListNode;
 
 public class LinkedListMid {
 
