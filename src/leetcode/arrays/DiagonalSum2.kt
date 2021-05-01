@@ -1,6 +1,6 @@
 package leetcode.arrays
 
-object DiagonalSum {
+object DiagonalSum2 {
     fun diagonalSum(mat: Array<IntArray>): Int {
         var sum = 0
         var k: Int = mat[0].size - 1
