@@ -21,7 +21,7 @@ public class SortedLinkedList {
     }
 
     public static ListNode sortList(ListNode head) {
-        if(head == null){
+        if (head == null) {
             return null;
         }
         ListNode root = head;
